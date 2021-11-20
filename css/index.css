@@ -6,7 +6,7 @@ html {
   background-position: center;
   color: white;
   text-align: center;
-  height: 100vh;
+  height: 110vh;
   margin-top: 30px;
   background-size: cover;
   justify-content: center;
@@ -25,12 +25,12 @@ html {
   padding: 2px;
 }
 .mouse-click {
-  margin-top: 142px;
+  margin-top: 180px;
   padding-bottom: 5px;
 }
 .about {
   text-align: center;
   background-color: white;
   color: black;
-  margin-top: 1px;
+  padding-top: 10px;
 }
