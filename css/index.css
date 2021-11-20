@@ -1,6 +1,26 @@
-.img-fluid {
-  position: relative;
+html {
+  scroll-behavior: smooth;
 }
-.wrapper {
-  position: absolute;
+.intro {
+  background-image: url(../assets/backgrounds/h_img.jpg);
+  background-position: center;
+  color: white;
+  text-align: center;
+  height: 100vh;
+  margin-top: 30px;
+  background-size: cover;
+  justify-content: center;
+}
+.intro-content {
+  display: block;
+  justify-content: center;
+  padding-top: 180px;
+}
+.intro-content h1 {
+  padding: 2px;
+  margin: 16px;
+  padding-bottom: 2px;
+}
+.intro-content p {
+  padding: 2px;
 }
