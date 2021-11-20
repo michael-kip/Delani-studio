@@ -14,7 +14,7 @@ html {
 .intro-content {
   display: block;
   justify-content: center;
-  padding-top: 220px;
+  padding-top: 210px;
 }
 .intro-content h1 {
   padding: 2px;
@@ -25,12 +25,12 @@ html {
   padding: 2px;
 }
 .mouse-click {
-  margin-top: 180px;
+  margin-top: 150px;
   padding-bottom: 5px;
 }
 .about {
   text-align: center;
   background-color: white;
   color: black;
-  padding-top: 10px;
+  padding-top: 50px;
 }
