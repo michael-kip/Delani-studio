@@ -44,3 +44,10 @@ html {
   padding-top: 90px;
   padding-bottom: 90px;
 }
+.what-we-do {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  align-content: center;
+  text-align: center;
+  background-color: transparent;
+}
