@@ -26,9 +26,11 @@ html {
 }
 .logo {
   margin-top: 145px;
+  padding-bottom: 5px;
 }
 .about {
   text-align: center;
   background-color: white;
   color: black;
+  margin-top: 1px;
 }
