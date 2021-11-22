@@ -109,3 +109,12 @@ footer {
 .col-sm-12 p {
   margin-top: 10px;
 }
+#design {
+  display: none;
+}
+#development {
+  display: none;
+}
+#product {
+  display: none;
+}
