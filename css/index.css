@@ -142,3 +142,28 @@ footer {
 .form-control::-webkit-input-placeholder {
   color: white;
 }
+@media only screen and (max-width: 576px){
+  #overlay1,#overlay2,#overlay3,#overlay4,#overlay5,#overlay6,#overlay7,#overlay8{
+   margin-top: 10px;
+  }
+  .portfolio{
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  @media only screen and (min-width: 576px){
+    #overlay1,#overlay2,#overlay3,#overlay4,#overlay5,#overlay6,#overlay7,#overlay8{
+    margin: 0px;
+    }
+    .card-img-overlay{
+      position: absolute;
+      display: block;
+
+    }
+
+    .portfolio{
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+    .col-md-3 img{
+      margin-left: 50px;
+    }
