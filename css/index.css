@@ -1,7 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Libre+Baskerville&display=swap");
-html {
-  scroll-behavior: smooth;
-}
+
 .intro {
   background-image: url(../assets/backgrounds/h_img.jpg);
   background-position: center;
