@@ -5,6 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Delani studio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Libre+Baskerville&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script> 
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/mdb.dark.min.css">
     <link rel="stylesheet" href="css/index.css">
@@ -14,9 +19,9 @@
         <div class="container">
             <div class="intro-content">
                 <img src="assets/logo/logo.png" alt="delani studio logo.">
-                <h1>WELCOME</h1>
-                <h1>TO DELANI STUDIO</h1>
-                <P>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</P>
+                <h1><strong>WELCOME</strong></h1>
+                <h1><strong>TO DELANI STUDIO</strong></h1>
+                <P><strong>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</strong></P>
             </div>
             <div class="mouse-click">
                 <img src="assets/mouse_click.png" alt="mouse click" id="mouse_click">
@@ -27,7 +32,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
-                    <h3>ABOUT US</h3>
+                    <h3><strong>ABOUT US</strong></h3>
                     <p>When you work with us, you are part of a team of commited collaborators. All aspects of our software development process are intergrated , interactive and agile.</p>
                     <p>Our approach unifies design, development and product managent to create exceptional products.</p> 
                     <p>We start each project by understanding your business goals, the users needs and the product requirements.</p>
@@ -40,7 +45,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
-                    <h3>SERVICES</h3>
+                    <h3><strong>SERVICES</strong></h3>
                     <p>Before we sign a contract or write a line of code, our team will spend the neccessary time needed to understand your product vission.</p>
                     <p>The outcome of the scoping session a proposal or high-level statement of work.</p>
                     <p>Based on your requirements, we can provide a complete offering or just the piece you need. </p>
@@ -49,13 +54,13 @@
         </div>
     </section>
     <section class="what-we-do">
-        <div class="conainer">
+        <div class="container">
             <div class="row">
-                <div class="col-sm-12"><h3>WHAT WE DO</h3></div>
+                <div class="col-sm-12 mb-4"><h3><strong>WHAT WE DO</strong></h3></div>
                 <div class="col-sm-12 col-md-4">
                     <div id="design-image">
                         <img src="assets/services_icons/design_icon.png" alt="a design icon">
-                        <h6>DESIGN</h6>
+                        <p>DESIGN</p>
                     </div>
                     <div id="design">
                         <h4>DESIGN</h4>
@@ -66,7 +71,7 @@
                 <div class="col-sm-12 col-md-4">
                     <div id="development-image">
                         <img src="assets/services_icons/dev_icon.png" alt="">
-                        <h6>DEVELOPMENT</h6>
+                        <p>DEVELOPMENT</p>
                     </div>
                     <div id="development">
                         <h4>DEVELOPMENT</h4>
@@ -77,7 +82,7 @@
                 <div class="col-sm-12 col-md-4">
                     <div id="product-image">
                         <img src="assets/services_icons/product_icon.png" alt="">
-                        <h6>PRODUCT MANAGEMENT</h6>
+                        <p>PRODUCT MANAGEMENT</p>
                     </div>
                     <div id=product>
                         <h4>PRODUCT</h4>
@@ -92,52 +97,60 @@
         <h3><strong>PORTFOLIO</strong></h3>
         <div class="container">
             <div class="row">
-                <div class="col-sm-12 col-md-3">
+                <div class="col-sm-12 col-md-3 position-relative" id="black-studio">
                     <img src="assets/portfolio/work4.jpg" alt="">
+                    <p id="overlay1" class="text">Black Studio</p>
                 </div>
-                <div class="col-sm-12 col-md-3">
+                <div class="col-sm-12 col-md-3 position-relative" id="ontario-security">
                     <img src="assets/portfolio/work3.jpg" alt="">
+                    <p id="overlay2" class="text">Ontario Security</p>
                 </div>
-                <div class="col-sm-12 col-md-3">
+                <div class="col-sm-12 col-md-3 position-relative" id="pyramids">
                     <img src="assets/portfolio/work2.jpg" alt="">
+                    <p id="overlay3" class="text">Pyramids</p>
                 </div>
-                <div class="col-sm-12 col-md-3">
+                <div class="col-sm-12 col-md-3 position-relative" id="jim-carry">
                     <img src="assets/portfolio/work1.jpg" alt="">
+                    <p id="overlay4">Jim Carry</p>
                 </div>
-                <div class="col-sm-12 col-md-3">
+                <div class="col-sm-12 col-md-3 position-relative" id="nice-day">
                     <img src="assets/portfolio/work5.jpg" alt="">
+                    <p id="overlay5">Have A Nice Day</p>
                 </div>
-                <div class="col-sm-12 col-md-3">
+                <div class="col-sm-12 col-md-3 position-relative" id="calculator">
                     <img src="assets/portfolio/work6.jpg" alt="">
+                    <p id="overlay6" class="text">Calculator</p>
                 </div>
-                <div class="col-sm-12 col-md-3">
+                <div class="col-sm-12 col-md-3 position-relative" id="burned">
                     <img src="assets/portfolio/work7.jpg" alt="">
+                    <p class="text" id="overlay7">Burned</p>
                 </div>
-                <div class="col-sm-12 col-md-3">
+                <div class="col-sm-12 col-md-3 position-relative" id="giraffe">
                     <img src="assets/portfolio/work8.jpg" alt="">
+                    <p class="text" id="overlay8">Giraffe Restaurant</p>
                 </div>
             </div>
         </div>
     </section>
     <section class="contact-us">
-        <h3>CONTACT US</h3>
+        <h3><strong>CONTACT US</strong></h3>
         <div class="container">
-            <form action="">
+            <form action="" id="feedback">
                  <div class="row">
                     <div class="col-md-6 mb-3">
                         <label for=""></label>
-                        <input type="text" id="name" class="form-control" name="name" placeholder="Name" required>
+                        <input type="text" id="name" class="form-control" name="name" placeholder="Name">
                     </div>
                     <div class="col-sm-6 col-md-6 mb-3">
                         <label for=""></label>
-                        <input type="text" id="email" class="form-control" name="email" placeholder="Email" required>
+                        <input type="email" id="email" class="form-control" name="email"  placeholder="Email">
                     </div>
                     </div>
                     <div class="col-sm-12 col-md-12">
-                        <textarea name="comment" id="textarea" class="form-control" cols="30" rows="10" placeholder="Your message here"></textarea>
+                        <textarea name="comment" id="comments" class="form-control" cols="30" rows="10" placeholder="Your message here"></textarea>
                     </div>
                     <div class="button">
-                        <button type="submit" class="btn btn-warning mt-2">SUBMIT</button>
+                        <button type="submit" class="btn btn-warning mt-2" id="submit">SUBMIT</button>
                     </div>
                  </div>   
             </form>
@@ -164,7 +177,6 @@
             </div>
         </div>
     </footer>
-    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script> 
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/index.js"></script> 
 </body>
