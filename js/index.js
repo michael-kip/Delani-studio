@@ -31,6 +31,7 @@ $(document).ready(function(){
       $("#product-image").slideDown('1500');
     });
   });
+
   $(document).ready(function(){
     $("#black-studio").mouseover(function(){
       $("#overlay1").show();
