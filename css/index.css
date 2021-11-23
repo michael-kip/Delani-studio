@@ -73,14 +73,13 @@
   align-content: center;
   color: black;
   background-color: white;
-  padding-right: 140px;
-  padding-left: 140px;
+  padding-right: 80px;
+  padding-left: 80px;
   padding-bottom: 30px;
 }
 .col-md-3 img {
-  height: 200px;
-  width: 250px;
-  padding-left: 20px;
+  height: 100%;
+  width: 100%;
 }
 .portfolio h3 {
   margin-bottom: 40px;
@@ -118,6 +117,7 @@ footer {
 #product {
   display: none;
 }
+
 #overlay1,
 #overlay2,
 #overlay3,
@@ -128,12 +128,12 @@ footer {
 #overlay8 {
   display: none;
   color: black;
-  width: 250px;
-  height: 200px;
-  background-color: rgba(255, 255, 255, 0.456);
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.445);
   position: absolute;
   top: -10px;
-  left: 30px;
+  left: 0px;
   font-weight: 800;
   text-align: center;
   font-size: 20px;
@@ -142,28 +142,90 @@ footer {
 .form-control::-webkit-input-placeholder {
   color: white;
 }
-@media only screen and (max-width: 576px){
-  #overlay1,#overlay2,#overlay3,#overlay4,#overlay5,#overlay6,#overlay7,#overlay8{
-   margin-top: 10px;
-  }
-  .portfolio{
-    margin-left: 0px;
-    margin-right: 0px;
-  }
-  @media only screen and (min-width: 576px){
-    #overlay1,#overlay2,#overlay3,#overlay4,#overlay5,#overlay6,#overlay7,#overlay8{
-    margin: 0px;
-    }
-    .card-img-overlay{
-      position: absolute;
-      display: block;
+@media only screen and (min-width: 576px) {
+  #overlay1,
+  #overlay2,
+  #overlay3,
+  #overlay4,
+  #overlay5,
+  #overlay6,
+  #overlay7,
+  #overlay8 {
+    width: 100%;
+    height: 100%;
 
-    }
+  }
+  .col-md-3 img{
+    width: 100%;
+    height:100%;
+  }
+}
+@media only screen and (man-width: 576px) {
+  #overlay1,
+  #overlay2,
+  #overlay3,
+  #overlay4,
+  #overlay5,
+  #overlay6,
+  #overlay7,
+  #overlay8 {
+    width: 0px;
+    text-align: center;
+  }
+  .portfolio {
+    text-align: center;
+    align-content: center;
+    color: black;
+    background-color: white;
+    padding-right: 140px;
+    padding-left: 140px;
+    padding-bottom: 30px;
+  }
+  .col-md-3 img {
+    height: 100%;
+    width: 100%;
+    padding-left: 20px;
+  }
+  .portfolio h3 {
+    margin-bottom: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .col-md-3 {
+    margin-bottom: 20px;
+}
+@media only screen and (min-width: 768px) {
+  #overlay1,
+  #overlay2,
+  #overlay3,
+  #overlay4,
+  #overlay5,
+  #overlay6,
+  #overlay7,
+  #overlay8 {
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+}
+  .portfolio {
+    color: black;
+    background-color: white;
+    padding-right: 140px;
+    padding-left: 140px;
+    padding-bottom: 30px;
+  }
+  .col-md-3 img {
+    height: 100%;
+    width:100%;
+    padding-left: px;
+  }
+  .portfolio h3 {
+    margin-bottom: 40px;
+  }
+  .col-md-3 {
+    margin-bottom: 20px;
+  }
+}
 
-    .portfolio{
-      margin-left: 0px;
-      margin-right: 0px;
-    }
-    .col-md-3 img{
-      margin-left: 50px;
-    }
+#comments{
+  counter-reset: white;
+}

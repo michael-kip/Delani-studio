@@ -92,7 +92,7 @@ $(document).ready(function(){
       let email = $("input#email").val();
       let comments = $("textarea#comments").val();
       if(!name || !email || !comments){
-           alert("Error! Enter valid name, email and date");
+           alert("Error! Enter valid name, email and message");
            name.val = ""; email.val = ""; comments.val =  ""; 
       }
       else{
